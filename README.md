@@ -1,6 +1,9 @@
 # vue
 
-> A Vue.js project
+A simple single page application for searching github repositories and issues. 
+Powered by Vue 2.0
+
+[Demo Here](https://hectorguo.com/github-repos-search/)
 
 ## Build Setup
 
