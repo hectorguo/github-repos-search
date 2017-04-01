@@ -1,6 +1,6 @@
 <template>
   <div>
-    <input class="search-input" type="text" placeholder="Search repository..." v-model="queryTxt">
+    <input class="search-input" type="text" placeholder="Search repository..." v-model="queryTxt" @keyup.enter="search">
     <button class="btn" @click="search">Search</button>
   </div>
 </template>
